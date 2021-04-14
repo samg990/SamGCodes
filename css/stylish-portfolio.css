@@ -1084,7 +1084,7 @@ form#send .main-btn-rect i {
 	}
 	@media all and (max-width:50em){
 	  #example3{
-	font-size:5vw;
+	font-size:10vw;
 	  }
 	}
 	@keyframes glow{
