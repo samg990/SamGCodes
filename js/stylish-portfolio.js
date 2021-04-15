@@ -4,6 +4,10 @@ $(function () {
 	}, 1000);
 });
 
+AOS.init({
+	duration: 1200,
+});
+
 // Original JavaScript code by Chirp Internet: chirpinternet.eu
 // Please acknowledge use of this code by including this header.
 

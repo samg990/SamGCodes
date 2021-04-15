@@ -254,8 +254,8 @@ h6 {
 
 	background: linear-gradient(
 			90deg,
-			rgba(82, 175, 252, 0.8) 0%,
-			rgba(85, 85, 85, 0.8) 100%
+			rgba(255, 255, 255, 0.8) 0%,
+			rgba(44, 44, 44, 0.8) 100%
 		),
 		url("../img/herosplash.jpg");
 	background-position: center center;
@@ -452,7 +452,7 @@ h6 {
 	height: 100%;
 	transition: all 0.4s ease 0s;
 	transform: translateX(250px);
-	background: #005e83;
+	background: #c0c0c0;
 	border-left: 1px solid rgba(255, 255, 255, 0.1);
 }
 
@@ -468,7 +468,7 @@ h6 {
 .sidebar-nav li.sidebar-nav-item a {
 	display: block;
 	text-decoration: none;
-	color: #fff;
+	color: rgb(0, 0, 0);
 	padding: 15px;
 }
 
@@ -652,18 +652,18 @@ footer.footer .social-link {
 	width: 4rem;
 	line-height: 4.3rem;
 	font-size: 1.5rem;
-	background-color: #1d809f;
+	background-color: #646464;
 	transition: background-color 0.15s ease-in-out;
 	box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
 }
 
 footer.footer .social-link:hover {
-	background-color: #155d74;
+	background-color: #c2c2c2;
 	text-decoration: none;
 }
 
 a {
-	color: #1d809f;
+	color: #646464;
 }
 
 a:hover,
@@ -673,16 +673,16 @@ a:active {
 }
 
 .btn-primary {
-	background-color: #1d809f !important;
-	border-color: #1d809f !important;
+	background-color: #646464 !important;
+	border-color: #646464 !important;
 	color: #fff !important;
 }
 
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary:active {
-	background-color: #155d74 !important;
-	border-color: #155d74 !important;
+	background-color: #bdbcbc !important;
+	border-color: #646464 !important;
 }
 
 .btn-secondary {
@@ -712,7 +712,7 @@ a:active {
 }
 
 .bg-primary {
-	background-color: #1d809f !important;
+	background-color: #646464 !important;
 	border-top-left-radius: 50% 25%;
 	border-top-right-radius: 50% 25%;
 }
@@ -739,9 +739,9 @@ a:active {
 	position: absolute;
 }
 #stage a img {
-	padding: 10px;
+	
 
-	background: #fff;
+	background: rgb(255, 255, 255);
 }
 
 #stage a:nth-of-type(1) {
@@ -757,7 +757,7 @@ a:active {
 	display: none;
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 490px) {
 	/* <--- this is a media query */
 
 	#stage {
@@ -804,7 +804,7 @@ button {
 	margin: 0;
 	font-family: "Roboto", sans-serif;
 	color: #fffff0;
-	background-color: rgb(21, 93, 116);
+	background-color: #646464;
 	text-transform: uppercase;
 	font-size: 25px;
 	letter-spacing: 1px;
@@ -1073,13 +1073,13 @@ form#send .main-btn-rect i {
 #example3{
 	display: block;
 	text-align: center;
-	font-family:'ForteLine';
+	font-family:'Source Sans Pro';
 	font-size:120px;
 	color:#030303;
 	overflow:hidden;
 	line-height:2em;
 	height:2em;
-	text-shadow:0 0 0.2em #9fe2ff;
+	text-shadow:0 0 0.2em #535353;
 	animation:glow 0.4s linear;
 	}
 	@media all and (max-width:50em){

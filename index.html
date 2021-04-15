@@ -14,6 +14,9 @@
 		<!-- Bootstrap Core CSS -->
 		<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
 
+		<!-- aos link animations -->
+		<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
 		<!-- animate css link -->
 		<link
     	rel="stylesheet"
@@ -135,12 +138,12 @@
 				id="services"
 			>
 				<div class="container">
-					<div class="content-section-heading">
+					<div class="content-section-heading" data-aos="fade-up">
 						<h3 class="text-secondary mb-0">Services</h3>
 						<h2 class="mb-5">What We Offer</h2>
 					</div>
 					<div class="row">
-						<div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+						<div class="col-lg-3 col-md-6 mb-5 mb-lg-0" data-aos="zoom-out-right">
 							<span class="service-icon rounded-circle mx-auto mb-3">
 								<i class="icon-screen-smartphone"></i>
 							</span>
@@ -149,7 +152,7 @@
 							</h4>
 							<p class="text-faded mb-0">Looks great on any screen size!</p>
 						</div>
-						<div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+						<div class="col-lg-3 col-md-6 mb-5 mb-lg-0" data-aos="zoom-out-right">
 							<span class="service-icon rounded-circle mx-auto mb-3">
 								<i class="icon-pencil"></i>
 							</span>
@@ -158,7 +161,7 @@
 							</h4>
 							<p class="text-faded mb-0">Freshly redesigned for any business</p>
 						</div>
-						<div class="col-lg-3 col-md-6 mb-5 mb-md-0">
+						<div class="col-lg-3 col-md-6 mb-5 mb-md-0" data-aos="zoom-out-left">
 							<span class="service-icon rounded-circle mx-auto mb-3">
 								<i class="icon-magnifier-add"></i>
 							</span>
@@ -167,7 +170,7 @@
 							</h4>
 							<p class="text-faded mb-0">Maintain your website at a low cost</p>
 						</div>
-						<div class="col-lg-3 col-md-6">
+						<div class="col-lg-3 col-md-6" data-aos="zoom-out-left">
 							<span class="service-icon rounded-circle mx-auto mb-3">
 								<i class="icon-people"></i>
 							</span>
@@ -201,9 +204,9 @@
 			<!-- Portfolio -->
 			<section class="content-port" id="portfolio">
 				<div class="container" >
-					<div class="content-section-heading text-center">
-						<!-- <h2 class="mb-5">Website Designs</h2>
-						<h3 class="text-secondary mb-0">Custom to your liking</h3> -->
+					<div class="content-section-heading text-center" data-aos="fade-up">
+						<h2 class="mb-5">Website Designs</h2>
+						<h3 class="text-secondary mb-0">Custom to your liking</h3>
 						
 					</div>
 					<div class="container" id="stage">
@@ -272,40 +275,42 @@
 				</div>
 			</section>
 				<section>
-					<button type="button" class="main-btn-rect popup-btn" data-popup="popup-reg">Contact Us</button>
 
-						<div id="popup-reg" class="popup">
-							<div class="popup-content">
-								<div class="event-header">
-								<h6>Please fill out this form</h6><br>
+					<div data-aos="fade-up">
+						<button type="button" class="main-btn-rect popup-btn" data-popup="popup-reg" >Contact Us</button>
+					</div>
+							<div id="popup-reg" class="popup">
+								<div class="popup-content">
+									<div class="event-header">
+									<h6>Please fill out this form</h6><br>
+									</div>
+									<form id="send" class="send-form">
+										<div class="form-group">
+										<input type="text" placeholder="Enter name..." id="name" name="name" required="required">
+										<label for="name">
+											<i class="fa fa-user"></i>
+										</label>
+										</div>
+										<div class="form-group">
+										<input type="tel" placeholder="Enter phone..." id="phone" name="phone" required="required">
+										<label for="phone">
+											<i class="fa fa-phone"></i>
+										</label>
+										</div>
+										<div class="form-group">
+										<input type="email" placeholder="Enter email address..." id="email" name="email" required="required">
+										<label for="mail">
+											<i class="fa fa-envelope"></i>
+										</label>
+										</div>
+										
+										<button type="submit" class="main-btn-rect" name="text" value="Send">
+										<i class="fa fa-paper-plane"></i>Send</button>
+									</form>
+									<span class="fade-out main-btn-circle">╳</span>
 								</div>
-								<form id="send" class="send-form">
-									<div class="form-group">
-									<input type="text" placeholder="Enter name..." id="name" name="name" required="required">
-									<label for="name">
-										<i class="fa fa-user"></i>
-									</label>
-									</div>
-									<div class="form-group">
-									<input type="tel" placeholder="Enter phone..." id="phone" name="phone" required="required">
-									<label for="phone">
-										<i class="fa fa-phone"></i>
-									</label>
-									</div>
-									<div class="form-group">
-									<input type="email" placeholder="Enter email address..." id="email" name="email" required="required">
-									<label for="mail">
-										<i class="fa fa-envelope"></i>
-									</label>
-									</div>
-									
-									<button type="submit" class="main-btn-rect" name="text" value="Send">
-									<i class="fa fa-paper-plane"></i>Send</button>
-								</form>
-								<span class="fade-out main-btn-circle">╳</span>
 							</div>
-						</div>
-				</section>
+					</section>
 
 			<!-- Call to Action -->
 			<!-- <section class="content-section bg-primary text-white">
@@ -341,7 +346,7 @@
 								<i class="icon-social-facebook"></i>
 							</a>
 						</li> -->
-						<li class="list-inline-item">
+						<li class="list-inline-item" data-aos="fade-up">
 							<a
 								class="social-link rounded-circle text-white mr-3"
 								href="https://www.instagram.com/samgcodes/?hl=en"
@@ -349,7 +354,7 @@
 								<i class="icon-social-instagram"></i>
 							</a>
 						</li>
-						<li class="list-inline-item">
+						<li class="list-inline-item" data-aos="fade-up">
 							<a
 								class="social-link rounded-circle text-white"
 								href="mailto: samgcodes@gmail.com"
@@ -367,6 +372,12 @@
 		<a class="scroll-to-top rounded js-scroll-trigger" href="#topPage">
 			<i class="fas fa-angle-up"></i>
 		</a>
+
+		<!-- aos js activate -->
+		<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+		<script>
+		  AOS.init();
+		</script>
 		
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
 
